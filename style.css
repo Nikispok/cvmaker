@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+}
+
+.form {
+  width: 340px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+}
+
+.form h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #777;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+label {
+  font-size: 12px;
+  color: #444;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: black;
+}
+
+button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+#cv {
+  width: 800px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 20px;
+  line-height: 1.5;
+}
+
+.header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#cv-name {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+#cv-job {
+  font-size: 15px;
+  color: #666;
+}
+
+.cv-body {
+  display: flex;
+  gap: 40px;
+}
+
+.left {
+  width: 30%;
+  border-right: 1px solid #eee;
+  padding-right: 20px;
+}
+
+.right {
+  width: 70%;
+}
+
+.block {
+  margin-bottom: 25px;
+}
+
+.block h2 {
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.block p {
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.job h4 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+#cv-skills, #cv-languages {
+  font-size: 13px;
+}
